@@ -1,16 +1,30 @@
-📦 iPhone Cinematic Unboxing Script – da1caleb
+# iPhone Cinematic Unboxing for FiveM
 
-INSTALLATION:
-1. Put "iphone_unbox" into your resources folder.
-2. Add "ensure iphone_unbox" to your server.cfg.
-3. Import items.sql into your ox_inventory items table.
-4. Give yourself "iphone_box" item using /additem or shop.
-5. Use the iPhone Box from inventory to unbox.
+**Author:** da1caleb  
+**Compatible with:** `lb-phone`, `ox_inventory`, `ox_lib`  
 
-FEATURES:
-- Cinematic animations
-- Camera zoom during unboxing
-- Real props for box & phone
-- Box opening sound effect
-- lb-phone compatible iPhone
-- Accessories: charger, earbuds, SIM card, manual
+A **realistic and cinematic iPhone unboxing** script for FiveM. Players can unbox an iPhone with full props, animations, sound effects, and camera zoom, receiving the phone and accessories directly in their inventory.
+
+---
+
+## Features
+
+- 📦 **Physical Box Prop** – Hold and open an iPhone box  
+- 🎬 **Cinematic Animations** – Multi-step unboxing with realistic gestures  
+- 🔊 **Sound Effects** – Box opening sound synced with animation  
+- 📱 **Phone Prop** – iPhone appears in hand before adding to inventory  
+- 🎥 **Camera Zoom** – Immersive unboxing perspective  
+- ✅ **Inventory Integration** – Works with `ox_inventory`  
+- 💌 **lb-phone Support** – Adds iPhone compatible with lb-phone  
+- 🛠 **Accessories Included** – Charger, earbuds, SIM card, manual  
+- 🔔 **Setup Notification** – Guides players on powering on and verifying their iPhone  
+
+---
+
+## Installation
+
+1. Place the `iphone_unbox` folder into your **resources** directory.  
+2. Add the following to your `server.cfg`:
+
+```txt
+ensure iphone_unbox
